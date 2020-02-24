@@ -1,0 +1,33 @@
+{
+  "name": "fb-messenger-playground",
+  "version": "1.0.0",
+  "description": "Facebook Messenger API playground project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "tunnel": "ngrok http 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaogsleite/fb-messenger-playground.git"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "api",
+    "chatbot",
+    "playground"
+  ],
+  "author": "joaogsleite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaogsleite/fb-messenger-playground/issues"
+  },
+  "homepage": "https://github.com/joaogsleite/fb-messenger-playground#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
