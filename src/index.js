@@ -10,14 +10,14 @@ const {
   SERVER_URL,
 } = process.env;
 
-function setConfig() {
+/*function setConfig() {
   profileAPI({
     "setting_type" : "domain_whitelisting",
     "whitelisted_domains" : [SERVER_URL+'/webview'],
     "domain_action_type": "add",
   });
 }
-setConfig();
+setConfig();*/
 
 // Serve the options path and set required headers
 server.get('/webview', (req, res, next) => {
